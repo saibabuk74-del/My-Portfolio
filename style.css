@@ -1,0 +1,69 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background: #eef2f7;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #0f172a;
+    color: #fff;
+    padding: 18px;
+    text-align: center;
+}
+
+/* Navigation */
+nav a {
+    color: #cbd5e1;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: white;
+    text-align: center;
+}
+
+/* Cards */
+.card {
+    background: white;
+    margin: 20px auto;
+    padding: 25px;
+    max-width: 700px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Headings */
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Projects Box */
+.box p {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #64748b;
+    font-size: 14px;
+}
